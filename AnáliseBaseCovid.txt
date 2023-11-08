@@ -1,0 +1,9 @@
+Abaixo está o link para acesso ao código
+https://colab.research.google.com/drive/1BXi1IOdQF7L5O157kxED2EzRcGXc4-5g?usp=sharing
+
+Abaixo está o link para utilização do arquivo necessário para funcionamento do código.
+A diferença está na nomeação de uma coluna, antes sem nome. Logo, ela foi nomeada afim de facilitar o entendimento à respeito da análise.
+ATENÇÂO:
+FAZER O DOWLOAD DO ARQUIVO EM CSV
+
+https://docs.google.com/spreadsheets/d/1_DO5uQ06ob_hlz5RPxLw1rR4ZqbQ0K7C/edit?usp=sharing&ouid=116876303611440076609&rtpof=true&sd=true
