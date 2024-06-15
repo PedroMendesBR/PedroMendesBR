@@ -1,0 +1,67 @@
+Até agora vimos no curso de Linguagem Java os seguintes tópicos
+
+Introdução
+Estrutura sequencial
+Estrutura condicional
+Estrutura repetitiva
+Tópicos básicos sobre Java
+Introdução à programação orientada à objetos
+
+Vamos falar agora sobre membros estáticos, também chamados de membros de classes
+
+Separaremos por Parte 1 e 2
+
+São membros que fazem sentido independentemente de objetos. Não necessitam de objeto para serem chamados. Isto é,
+são chamados a partir do próprio nome da classe.
+
+Seja o exemplo do triangulo
+x.area -> Isto é uma varíavel de instância
+
+Um exemplo de membro estático é o uso do Math.sqrt pois são chamados a partir da própria classe Math
+
+A atribuição da palavra "final" indica que o valor não pode mais ser mudado, logo é uma constante.
+
+Você não pode chamar um método não estático, dentro de uma classe estática.
+
+----------------------------------------------------
+Construtores - this - encapsulamento
+
+COnstrutor = Operador especial da classe, executado no momento da instanciação
+
+Permiti ou obriga que o objeto receba dados na sua instanciação
+Há um construtor padrão já existente na definição de classe
+É possível definir mais de um construtor em uma classe
+
+
+Uso da palavra this
+
+Realiza a diferenciação da variável de escopo local e do atributo da classe.
+Isto é: Dado um método construtor responsável por instanciar os atributos da classe, onde os nomes, dos seus parâmetros
+são os mesmos dos atributos da classe, usa-se a palavra reservada this.
+Quando usada, o nome acompanhado pelo this é de nível global na classe, isto é, fora do escopo local. Portanto, resolve-se
+esse conflito de ambiguidades.
+
+Passar o próprio objeto como argumento na chamada de um método ou construtor.
+---------------------------------------------------
+Sobrecarga 
+Isso é um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome,porém com diferentes listas de parâmetros.
+
+Encapsulamento
+É um princípio que consiste em esconder detalhes de implementação de uma classe, epondo apenas operações seguras.
+
+Métodos Getter e Setters
+
+
+Modificadores de acesso
+Private = Só pode ser acessado na própria classe
+
+Sem nada = Só pode ser acessado em classes do mesmo pacote
+
+Protected = O membro só pode ser acessado no mesmo pacote, bem como em subclasses de pacotes diferentes
+
+Public = Dedo no c* e r gritaria
+
+ 
+
+
+
